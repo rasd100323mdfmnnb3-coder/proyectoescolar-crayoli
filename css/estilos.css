@@ -1,1 +1,30 @@
+/* =========================================================
+   PAPELERÍA CRAYOLI
+   Hoja de estilos principal. Colores basados en la propuesta:
+   Azul tinta #1E90FF y rosa marcador #FF1493.
+   ========================================================= */
 
+:root {
+  --azul: #1E90FF;
+  --azul-oscuro: #1266b5;
+  --rosa: #FF1493;
+  --rosa-oscuro: #d90d79;
+  --amarillo: #ffe27a;
+  --papel: #ffffff;
+  --fondo: #f5f9ff;
+  --texto: #263449;
+  --texto-suave: #5f6e82;
+  --borde: #e1eaf4;
+  --sombra: 0 12px 35px rgba(27, 74, 120, .10);
+  --radio: 22px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 88px; }
+body {
+  margin: 0;
+  color: var(--texto);
+  background: var(--papel);
+  font-family: "Quicksand", Arial, sans-serif;
+  line-height: 1.65;
+}
